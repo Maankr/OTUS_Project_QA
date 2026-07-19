@@ -5,4 +5,5 @@ requests
 pydantic
 python-dotenv
 selenium
+ruff
  

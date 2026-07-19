@@ -31,6 +31,15 @@ pipeline {
                 '''
             }
         }
+
+        stage('Lint') {
+            steps {
+                sh '''
+                    . venv/bin/activate
+                    ruff check .
+                '''
+            }
+        }
  
         stage('Run API tests') {
             steps {
