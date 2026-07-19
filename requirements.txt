@@ -1,0 +1,9 @@
+pytest
+pytest-xdist
+allure-pytest
+requests
+pydantic
+python-dotenv
+selenium
+ruff
+ 
